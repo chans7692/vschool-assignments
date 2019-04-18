@@ -1,0 +1,101 @@
+body {
+    font-family: serif;
+    font-size: 14px;
+    color: #2f2f2f;
+    background-color: #f9f7f1;
+}
+
+.front-page{
+    width: 800px;
+    position: relative;
+    left: 25%;
+    background-image: url(https://cdn.shopify.com/s/files/1/1750/4945/products/aged_65_sq1_250_52f9970e-3d39-4ce1-8511-e6bf507cdd69_250x.jpg?v=1490204717);
+    background-size: 
+}
+
+header {
+    font-family: serif;
+    font-weight: 900;
+    font-size: 80px;
+    display: inline-block;
+    line-height: 72px;
+    margin-bottom: 20px;
+
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.head {
+    text-align: center;
+    position: relative;
+}
+
+
+.content {
+    display: inline-block;
+    margin: 30px 2% 0 2%;
+
+}
+
+.collumn {
+    font-size: 14px;
+    line-height: 20px;
+    width: 47.7%;
+    display: inline-block;
+    padding: 0 1% 0 1%;
+    vertical-align: top;
+    margin-bottom: 50px;
+}
+
+.collumn+.collumn {
+    border-left: 1px solid #2f2f2f;
+}
+
+.headline {
+    text-align: center;
+    line-height: normal;
+    font-family: serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+}
+
+.main-article {
+    border-bottom: 2px solid #2f2f2f;
+    border-top: 2px solid #2f2f2f;
+    padding: 12px 0 12px 0;
+}
+
+.hl1:after {
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 200px;
+    height: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.hl2:after {
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.hl3:after {
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 300px;
+    height: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
