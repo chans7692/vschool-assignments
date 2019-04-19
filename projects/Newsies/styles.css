@@ -5,8 +5,9 @@ body {
     background-color: #f9f7f1;
 }
 
-.front-page{
+.page{
     width: 800px;
+    height: auto;
     position: relative;
     left: 25%;
     background-image: url(https://cdn.shopify.com/s/files/1/1750/4945/products/aged_65_sq1_250_52f9970e-3d39-4ce1-8511-e6bf507cdd69_250x.jpg?v=1490204717);
@@ -14,18 +15,29 @@ body {
 }
 
 header {
-    font-family: serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 900;
     font-size: 80px;
     display: inline-block;
     line-height: 72px;
+    margin-top: 20px;
     margin-bottom: 20px;
 
 }
 
+.mainArticleImg{
+    float: left;
+    width: 340px;
+    height: auto;
+    padding: 20px;
+    filter: grayscale(100%);
+}
+
 p {
+    font-size: 15px;
     margin-top: 0;
     margin-bottom: 20px;
+    word-wrap: normal;
 }
 
 .head {
@@ -72,28 +84,10 @@ p {
     padding: 12px 0 12px 0;
 }
 
-.hl1:after {
+.hl:after {
     border-bottom: 1px solid #2f2f2f;
     content: '';
-    width: 200px;
-    height: 10px;
-    display: block;
-    margin: 0 auto;
-}
-
-.hl2:after {
-    border-bottom: 1px solid #2f2f2f;
-    content: '';
-    width: 100px;
-    height: 10px;
-    display: block;
-    margin: 0 auto;
-}
-
-.hl3:after {
-    border-bottom: 1px solid #2f2f2f;
-    content: '';
-    width: 300px;
+    width: 80%;
     height: 10px;
     display: block;
     margin: 0 auto;
