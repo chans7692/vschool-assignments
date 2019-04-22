@@ -1,0 +1,41 @@
+.container{
+    width: 800px;
+    height: auto;
+    left: 25%;
+    margin: auto;
+}
+
+header{
+    margin-left: 10px;
+}
+
+img{
+    float: left;
+    width: 35px;
+    height: auto;
+    margin: 0px 10px;
+}
+
+h1{
+    display: inline;
+}
+
+h1{
+    font-size: 34px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+ul li{
+    background-color: yellow;
+}
+
+ul li+li{
+    background-color: orange;
+}
+
+ul li+li+li{
+    background-color: red;
+}

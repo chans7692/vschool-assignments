@@ -6,6 +6,7 @@ var shopper = {
         if(this.amount >= this.isPlenty){
         return "We need " + this.amount + " more " + this.fruits;
         }}
+        groceryCart: ["bananas", "paper towls", "garbage bags"]
  }
 
  console.log(shopper.getMore())
