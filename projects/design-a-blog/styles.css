@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     border: none;
@@ -6,26 +6,29 @@
 
 }
 
-body{
-    text-align: center;
-    background-color: #D2D2D2;    
+body {
+    text-align: left;
 }
 
-.content{
+img {
+    float: left;
+    border-radius: 30px;
+    margin: 10px;
+    height: 200px;
+    width: 150px;
+}
+
+.content {
     position: absolute;
-    display: inline-block;
     left: 50%;
     margin-top: 40px;
     margin-left: -400px;
-    padding-top: 15px;
-    padding-left: 10px;
-    padding-right: 10px; 
-    height: 1000px;
+    padding:15px 10px 0px 10px;
+    height: 100%;
     width: 800px;
-    background-color: #F1F0ED;
 }
 
-.header{
+header {
     z-index: 1;
     position: fixed;
     padding-top: 10px;
@@ -33,30 +36,34 @@ body{
     margin-left: -400px;
     width: 800px;
     height: 40px;
-    background-color: #F1F0ED;
-    border-bottom: 1px solid #2f2f2f; 
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.underline-head{
+    position: relative;
+    top: 16px;
+    left: 86px;
+    width: 630px;
+    border-bottom: 1px solid #2f2f2f;
 }
 
 
-
-.tittle{
-    display: inline-block;
+.tittle {
     float: left;
     height: auto;
     width: 100px;
 }
 
-.button{
-    display: inline-block;
+.button {
     float: left;
     height: auto;
     width: 100px;
     border-left: 2px solid #2f2f2f;
 }
 
-.social{
+.social {
     display: inline-block;
-    float: left;
     width: 100px;
     border-left: 2px solid black;
 }
@@ -66,39 +73,46 @@ body{
     width: 20px;
     text-align: center;
     text-decoration: none;
-  }
+}
 
-  .main{
-      position: relative;
-      height: 400px;
-      width: 800px;
-      padding-bottom: 15px;
-  }
+main {
+    position: relative;
+    height: 400px;
+    width: 800px;
+}
 
-  .blog{
-      position: relative;
-      display: block;
-      height: 200px;
-      width: 800px;
-      word-wrap: normal;
-  }
+.main-content{
+    position: relative;
+    padding: 10px;
+}
 
-  .blog:after{
-      border-bottom:1px solid #2f2f2f; 
-    } 
-  }
+.underline-main{
+    position: relative;
+    top: -50px;
+    border-bottom: 1px solid #2f2f2f;
+}
 
-  img{
-      display: inline-block;
-      float: left;
-      height: 2000px;
-      width: 150px;
-  }
+.blog-content {
+    position: relative;
+    top: 60px;
+}
 
-  .blogc{
-      display: inline-block;
-  }
+ul{
+    position: relative;
+    top: 50px;
+}
 
-  p{
-      word-wrap: normal;
-  }
+li {
+    list-style: none;
+    padding: 10px;
+    height: 250px;
+}
+
+.blog-tittle{
+    display: block;
+}
+
+.date{
+    display: block;
+    text-align: right
+}
