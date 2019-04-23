@@ -52,7 +52,7 @@ p {
 
 }
 
-.collumns1::after{
+.collumns1:after{
     border-bottom: 2px solid #2f2f2f;   
 }
 

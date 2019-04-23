@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flag{
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -290px;
+    margin-top: -195px;
+    width: 580px;
+    height: 390px;
+    border: solid #EAF6FF ;
+}
+
+.dot{
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -117.5px;
+    margin-top: -117.5px;
+    height: 235px;
+    width: 235px;
+    border-radius: 100%;
+    background-color: #BC0B2E;
+}

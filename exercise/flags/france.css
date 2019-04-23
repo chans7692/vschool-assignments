@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flag{
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -290px;
+    margin-top: -250px;
+    width: 580px;
+    height: 390px;
+    border: solid #EAF6FF ;
+}
+
+.blue{
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -290px;
+    margin-top: -196px;
+    width: 195px;
+    height: 390px;
+    background-color: blue;
+}
+
+.white{
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -95px;
+    margin-top: -196px;
+    width: 195px;
+    height: 390px;
+    background-color: white;
+}
+
+.red{
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: 94px;
+    margin-top: -196px;
+    width: 195px;
+    height: 390px;
+    background-color: red;
+}

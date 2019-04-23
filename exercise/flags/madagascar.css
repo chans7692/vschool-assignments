@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flag{
+    width: 580pt;
+    height: 390pt;    
+    position: relative;
+    top: 50pt;
+    margin: auto;
+    border: solid #EAF6FF;
+}
+
+.white{
+    position: relative;
+    float: left;
+    display: inline-block;
+    background-color: white;
+    height: 100%;
+    width: 32.9%;
+}
+
+.red{
+    position: relative;
+    float: right;
+    display: inline-block;
+    background-color: red;
+    height: 50%;
+    width: 65.8%;
+}
+
+.green{
+    position: relative;
+    float: right;
+    display: inline-block;
+    background-color: green;
+    height: 50%;
+    width: 65.8%;
+}

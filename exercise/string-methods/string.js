@@ -27,13 +27,13 @@
 
 // console.log(res("HelloWorld"))
 
-function title(str){
-    var spl = str.split(" ")
-    for(var i = 0 ; i < spl.length ; i++){
-        spl[i] = spl[i].charAt(0).toUpperCase() + spl[i].substring(1);
-    }
-    var join = spl.join(" ")
-    return join
-}
+// function title(str){
+//     var spl = str.split(" ")
+//     for(var i = 0 ; i < spl.length ; i++){
+//         spl[i] = spl[i].charAt(0).toUpperCase() + spl[i].substring(1);
+//     }
+//     var join = spl.join(" ")
+//     return join
+// }
 
-console.log(title("i am capitalized"))
+// console.log(title("Make a function that takes any string and capitalizes any character that follows a space."))

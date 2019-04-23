@@ -1,0 +1,14 @@
+}*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 580px;
+    height: 380px;    
+    position: relative;
+    top: 50pt;
+    margin: auto;
+    left: 30%;
+}

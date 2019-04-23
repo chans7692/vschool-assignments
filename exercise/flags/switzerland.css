@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flag{
+    width: 580px;
+    height: 580px;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -290px;
+    margin-top: -290px;
+    background-color: red;
+}
+
+.hor{
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -180px;
+    margin-top: -55px;
+    height: 110px;
+    width: 360px;
+    background-color: white;
+}
+
+.ver{
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -55px;
+    margin-top: -180px;
+    height: 360px;
+    width: 110px;
+    background-color: white;
+}
