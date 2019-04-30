@@ -1,39 +1,42 @@
-// function capLow(str){
-//     var cap = str.toUpperCase()
-//     var low = cap.toLowerCase()
-//     return (cap + low)
-// }
+let str = "Hello World"
 
-// console.log(capLow("Hello"))
+function capLow(){
+    var cap = str.toUpperCase()
+    var low = cap.toLowerCase()
+    return (cap + low)
+}
 
-// function round(str){
-//     var half = (str.length / 2)
-//     return Math.floor(half)
-// }
+console.log(capLow())
 
-// console.log(round("HelloWorld"))
 
-// function hlf(str) {
-//         return str.slice(0, str.length / 2)
-// }
+function round(){
+    var half = (capLow().length / 2)
+    return Math.floor(half)
+}
 
-// console.log(hlf("HelloWorld"))
+console.log(round())
 
-// function res(str){
-//     var upp = str.slice(0, str.length / 2)
-//     var low = str.slice(str.length / 2)
-//     return upp.toUpperCase() + " " + low.toLowerCase()
-// }
+function hlf1(str1) {
+        return str1.slice(0, round())
+}
 
-// console.log(res("HelloWorld"))
+console.log(hlf1(capLow()))
 
-// function title(str){
-//     var spl = str.split(" ")
-//     for(var i = 0 ; i < spl.length ; i++){
-//         spl[i] = spl[i].charAt(0).toUpperCase() + spl[i].substring(1);
-//     }
-//     var join = spl.join(" ")
-//     return join
-// }
+function res(str){
+    var upp = str.slice(0, str.length / 2)
+    var low = str.slice(str.length / 2)
+    return upp.toUpperCase() + " " + low.toLowerCase()
+}
 
-// console.log(title("Make a function that takes any string and capitalizes any character that follows a space."))
+console.log(res("HelloWorld"))
+
+function title(str){
+    var spl = str.split(" ")
+    for(var i = 0 ; i < spl.length ; i++){
+        spl[i] = spl[i].charAt(0).toUpperCase() + spl[i].substring(1);
+    }
+    var join = spl.join(" ")
+    return join
+}
+
+console.log(title("Make a function that takes any string and capitalizes any character that follows a space."))

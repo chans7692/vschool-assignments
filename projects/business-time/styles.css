@@ -1,0 +1,194 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  background: url("https://i.gifer.com/5NW1.gif")repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+header {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbPyEz2yPR6-XjPwDT2_d8564WheZHbAuFXb6-4h7STeJyGBfK");
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: right top;
+}
+
+header img {
+  position: relative;
+  left: 50%;
+  margin-left: -200px;
+  height: auto;
+  width: 400px;
+}
+
+nav .flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f262a;
+  height: 43px;
+}
+
+nav .flex-container>li {
+  list-style: none;
+  font-size: 30px;
+  height: 35px;
+}
+
+li a img {
+  position: relative;
+  top: -5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+nav .flex-container>li+li {
+  border-left: solid 2px black;
+}
+
+main {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  height: auto;
+  padding-bottom: 10px;
+  margin-bottom: 60px;
+}
+
+main .flex-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  width: 800px;
+}
+
+
+
+.flex-container>.profile {
+  width: 250px;
+}
+
+.profile img {
+  width: 100%;
+}
+
+.container {
+  height: 200px;
+  padding: 0 16px;
+}
+
+.position {
+  color: grey;
+}
+
+.contact {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.contact:hover {
+  background-color: #555;
+}
+
+footer img {
+  position: relative;
+  left: 50%;
+  margin-left: -100px;
+  height: auto;
+  width: 200px;
+}
+
+footer {
+  display: block;
+  position: static;
+  width: 100%;
+  height: auto;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbPyEz2yPR6-XjPwDT2_d8564WheZHbAuFXb6-4h7STeJyGBfK");
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: right top;
+  margin-top: 15px;
+}
+
+.home{
+  position: absolute;
+  bottom: 0px;
+}
+
+/* contact form */
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  color: white;
+}
+
+.contact-container form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 375px;
+}
+
+input {
+  margin: 5px;
+  border-radius: 5px;
+  width: 175px;
+  border-radius: 5px;
+}
+
+textarea {
+  margin: 5px;
+  width: 175px;
+  border-radius: 5px;
+}
+
+.outer-container {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbPyEz2yPR6-XjPwDT2_d8564WheZHbAuFXb6-4h7STeJyGBfK");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: right top;
+  margin: 10px;
+}
+
+.inner-container {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),
+    url("https://static1.squarespace.com/static/58a1e9e78419c22b6e0ce0bf/t/5999b797f43b55e2eed85793/1503424553892/Rustic+Hear+Pine-Regular.JPG");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: right top;
+  max-width: 800px;
+  padding: 10px;
+  color: white;
+  text-shadow: 1px 1px black;
+  margin: 15px;
+}
+
+.quote {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px 10px 25px 10px;
+  color: black;
+  text-shadow: none;
+}
+
+.citation {
+  float: right;
+}

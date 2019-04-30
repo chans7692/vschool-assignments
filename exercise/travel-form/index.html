@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <form name = 'travel'>
+        First name:<br>
+        <input type="text" name="first" id="first"><br>
+        Last name:<br>
+        <input type="text" name="last" id="last"><br>
+        Age:<br>
+        <input type="number" name="age" id="age"><br><br>
+        Male
+        <input type="radio" name="gender" id="male" value="Male">
+        Female
+        <input type="radio" name="gender" id="female" value="Female"><br><br>
+        Destination:<br>
+        <select name="destination">
+                <option value="France">France</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Moraco">Moraco</option>
+                <option value="Ohio">Ohio</option>
+              </select><br><br>
+              Dietary Restrictions:<br>
+              
+        <input type="checkbox" name="diet" id="wheat" value="Wheat">
+        Wheat<br>
+        <input type="checkbox" name="diet" id="dairy" value="Dairy">
+        Dairy<br>
+        <input type="checkbox" name="diet" id="nut" value="Nut">
+        Nuts<br>
+        <input type="checkbox" name="diet" id="seafood" value="Sea Food">
+        Sea Food<br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>

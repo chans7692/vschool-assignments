@@ -1,0 +1,164 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: super-plumber-brothers;
+}
+
+body {
+  overflow: hidden;
+}
+
+.container {
+  display: block;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.sliding-background {
+  background: url('image/SuperMarioBrosMap1-1BG.png')repeat-x;
+  background-size: contain;
+  height: 39em;
+  width: 10746px;
+  animation: moveSlideshow 120s linear infinite;
+}
+
+@keyframes moveSlideshow {
+  100% {
+    transform: translateX(-66.6666%);
+  }
+}
+
+
+.content {
+  position: absolute; 
+  top: 0; 
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.logo{
+  margin: 71px;
+  font-size: 34px;
+  font-family: 'Super Mario Bros.';
+  font-style: normal;
+  font-weight: normal;
+}
+
+.character-container {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+}
+
+.calc {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+}
+
+.calc h3{
+  display: none;
+}
+
+.calc input{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+}
+
+.grid-child {
+  height: 150px;
+  margin-left: 45px;
+}
+
+.pest {
+  height: 100%;
+}
+
+.grid-child h1 {
+  float: left;
+}
+
+.value {
+  position: relative;
+  left: 35%;
+}
+
+.coin {
+  position: relative;
+  top: 4px;
+  margin-left: 5px;
+  height: auto;
+  width: 23px;
+}
+
+.results img {
+  position: relative;
+  top: -30px;
+  left: 20px;
+  height: auto;
+  width: 200px;
+}
+
+#results {
+  position: relative;
+  width: 175px;
+  height: 19px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+}
+
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #5C94FC;
+}
+
+@media (max-width: 934px) {
+  .logo{
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 815px) {
+.logo{
+  font-size: 20px;
+  margin-left: 82px;
+  margin-bottom: 10px;
+}
+
+  .character-container{
+    display: none;
+  }
+
+  .calc {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .calc h3{
+    display: block;
+  }
+
+  .calc h3 img{
+    height: 10px;
+    width: 10px;
+  }
+}
