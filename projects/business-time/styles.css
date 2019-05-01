@@ -79,8 +79,8 @@ main .flex-container {
 }
 
 .container {
-  height: 200px;
-  padding: 0 16px;
+  height: 350px;
+  padding: 10px;
 }
 
 .position {
@@ -88,15 +88,14 @@ main .flex-container {
 }
 
 .contact {
-  border: none;
-  outline: 0;
   display: inline-block;
-  padding: 8px;
   color: white;
   background-color: #000;
   text-align: center;
   cursor: pointer;
   width: 100%;
+  margin: 5px 5px 5px 0px;
+  padding: 8px;
 }
 
 .contact:hover {
@@ -176,10 +175,17 @@ textarea {
   background-size: cover;
   background-position: right top;
   max-width: 800px;
-  padding: 10px;
   color: white;
   text-shadow: 1px 1px black;
   margin: 15px;
+  padding: 10px;
+}
+
+.inner-container img{
+  float: left;
+  border: double black;
+  margin: 5px;
+  padding: 5px;
 }
 
 .quote {

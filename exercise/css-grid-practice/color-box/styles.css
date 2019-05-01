@@ -1,0 +1,62 @@
+.container-one{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.box{
+    height: 50px;
+    border-radius: 15px;
+}
+
+.one{
+    background: red;
+    grid-column: span 2;
+}
+
+.two{
+    background: blue;
+    grid-column: span 2;
+}
+
+.three{
+    background: green;
+    grid-column: span 1;
+}
+
+.four{
+    background: purple;
+    grid-column: span 3;
+}
+
+.five{
+    background: yellow;
+    grid-column: span 4;
+}
+
+.b-box{
+    min-height: 100px;
+    border-radius: 15px;
+}
+
+.b-one{
+    background: red;
+    grid-column: span 4;
+}
+
+.b-two{
+    background: blue;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.b-three{
+    background: green;
+    grid-column: span 2;
+}
+
+.b-four{
+    background: purple;
+    grid-column: span 1;
+}
