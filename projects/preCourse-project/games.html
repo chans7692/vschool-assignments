@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>SilverGames/Games</title>
+        <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <header>
+            <a href="home.html"><img id="logo" src="images/SilverGames.png"></a>
+        </header>
+        <main>
+            <div class='nav'>
+                <form action="games.html">
+                    <button type="submit" class='nav-button' id='learn_more'>Games</button>
+                </form>
+                <form action="https://discordapp.com/channels/390348514812755978/390348514812755981" target="_blank">
+                    <button type="submit" class='nav-button' id='check_it_out'>Discord</button>
+                </form>
+                <form action="video.html">
+                    <button type="submit" class='nav-button' id='check_it_out'>Videos</button>
+                </form>
+                <form action="contact.html">
+                    <button type="submit" class='nav-button' id='check_it_out'>Contacts</button>
+                </form>
+            </div>
+            <div class="slideshow-container" id="slideshow1">
+                <div class="slides">
+                    <span class="Game_Slides">
+                        <a href="https://www.minecraft.net/en-us/" target="_blank">
+                            <img src="images/Minecraft_logo.png" />
+                        </a> 
+                        <a href="http://www.medievalengineers.com/" target="_blank">
+                            <img src="images/MedeivilEngineers_logo.png" />
+                        </a> 
+                    </span>                 
+                </div>
+                    
+                <div class="slides">
+                    <span class="Game_Slides">
+                        <a href="https://www.spaceengineersgame.com/" target="_blank">
+                            <img src="images/SpaceEngineers_logo.png" />
+                        </a>
+                        <a href="https://rust.facepunch.com/" target="_blank">
+                            <img src="images/Rust_logo.png" />
+                        </a>
+                    </span>
+                </div>
+                <a class="prev" onclick="plusSlides(-1, this.parentNode)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, this.parentNode)">&#10095;</a>
+            </div>
+        </main>
+        <footer>
+            <img src="images/logo.png" />
+        </footer>
+
+        <script src="app.js"></script>
+
+    </body>
+</html>

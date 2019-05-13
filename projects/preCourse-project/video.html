@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>SilverGames/Video</title>
+        <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <header>
+            <a href="home.html"><img id="logo" src="images/SilverGames.png"></a>
+        </header>
+        <main>
+            <div class='nav'>
+                <form action="games.html">
+                    <button type="submit" class='nav-button' id='learn_more'>Games</button>
+                </form>
+                <form action="https://discordapp.com/channels/390348514812755978/390348514812755981" target="_blank">
+                    <button type="submit" class='nav-button' id='check_it_out'>Discord</button>
+                </form>
+                <form action="video.html">
+                    <button type="submit" class='nav-button' id='check_it_out'>Videos</button>
+                </form>
+                <form action="contact.html">
+                    <button type="submit" class='nav-button' id='check_it_out'>Contacts</button>
+                </form>
+            </div>
+            <div class="slider-grid" style="text-align: center;">
+                <div class="slider-menu" style="text-align: center;">
+                    <span class="thumbnail" onclick="openModal_1(); currentSlide(1, slideshow1)">
+                        <img src="https://i.ytimg.com/vi/u9mJcQ79AQ8/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLDLNWgvr4ZeK8l2JOak50rUPWasfg">
+                    </span> 
+                    <span class="thumbnail" onclick="openModal_1(); currentSlide(2, slideshow1)">
+                        <img src="https://i.ytimg.com/vi/SqhRYSgNMVs/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLACuQSaGNaZ5m8fPTBJFC3LZIQb4A">
+                    </span> 
+                    <span class="thumbnail" onclick="openModal_1(); currentSlide(3, slideshow1)">
+                        <img src="https://i.ytimg.com/vi/U6AS1TKIzZw/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLDnCzw-e_MJQ8ZYSB0Ibvk5L_3Zvw">
+                    </span>
+                    <span class="thumbnail" onclick="openModal_1(); currentSlide(4, slideshow1)">
+                        <img src="https://i.ytimg.com/vi/UfiJJziqDAg/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLD8nbALg6rKaRZbjLaIqdfE-k_Ojw">
+                    </span> 
+                    <span class="thumbnail" onclick="openModal_1(); currentSlide(5, slideshow1)">
+                        <img src="https://i.ytimg.com/vi/eTzaV3-QwA0/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLCFlXgQaNjrM3KgeNprQDOU5KoYug">
+                    </span>  
+                    <span class="thumbnail" onclick="openModal_1(); currentSlide(6, slideshow1)">
+                        <img src="https://i.ytimg.com/vi/Lk_EFNhojQ8/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLAFoPFCahgc2oqgyeF3MwiprbKDxw">
+                    </span>
+                </div>
+                <br>
+                <div class="slider-menu" style="text-align: center;">
+                    <span class="thumbnail" onclick="openModal_2(); currentSlide(1, slideshow2)">
+                        <img src="https://i.ytimg.com/vi/h82dGNRM1mI/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLC634ELNKjqc11TVbOiuDiAKJewdA">
+                    </span> 
+                    <span class="thumbnail" onclick="openModal_2(); currentSlide(2, slideshow2)">
+                        <img src="https://i.ytimg.com/vi/XVfKRW81X-g/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLBtV4nu0iYVkaaaptcxhxMjuoqGbA">
+                    </span> 
+                    <span class="thumbnail" onclick="openModal_2(); currentSlide(3, slideshow2)">
+                        <img src="https://i.ytimg.com/vi/rGMQiZ4aPSA/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLDWR39Xxjph6P8c8xc8Z1I7zisqhQ">
+                    </span>
+                    <span class="thumbnail" onclick="openModal_2(); currentSlide(4, slideshow2)">
+                        <img src="https://i.ytimg.com/vi/FpjD17J-kAw/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLBK3kOwaPzCIb4f5zZK2Um1XssV7Q">
+                    </span> 
+                    <span class="thumbnail" onclick="openModal_2(); currentSlide(5, slideshow2)">
+                        <img src="https://i.ytimg.com/vi/oAJGGPV16OM/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLB21EJg31GEaizDWbj0lBdUcADhMg">
+                    </span>  
+                    <span class="thumbnail" onclick="openModal_2(); currentSlide(6, slideshow2)">
+                        <img src="https://i.ytimg.com/vi/0Jctx72sOjs/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLB08vKOGjWAdEP_Y5c4oxQzy6mj6w">
+                    </span>
+                </div>
+                <br>
+                <div class="slider-menu" style="text-align: center;">
+                    <span class="thumbnail" onclick="openModal_3(); currentSlide(1, slideshow3)">
+                        <img src="https://i.ytimg.com/vi/nNzujxmVsPo/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLB0pu3128RHPHM9E0zzTFiwgD5tnQ">
+                    </span> 
+                    <span class="thumbnail" onclick="openModal_3(); currentSlide(2, slideshow3)">
+                        <img src="https://i.ytimg.com/vi/zuzNd513U0M/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLAs4ejJpX3PgguWAkh6un-e_U4_Sg">
+                    </span> 
+                    <span class="thumbnail" onclick="openModal_3(); currentSlide(3, slideshow3)">
+                        <img src="https://i.ytimg.com/vi/XmmJ_F-_p_o/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLDtMQEVFtzZxMMbdSChto5d1VdCkQ">
+                    </span>
+                    <span class="thumbnail" onclick="openModal_3(); currentSlide(4, slideshow3)">
+                        <img src="https://i.ytimg.com/vi/pDQZRhQq584/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLB12WnXe5dCRFYLdc2qO_L9hTQ_CQ">
+                    </span> 
+                    <span class="thumbnail" onclick="openModal_3(); currentSlide(5, slideshow3)">
+                        <img src="https://i.ytimg.com/vi/5tt91hNjs3o/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLC2tM3g1-ufa2CfkqCZ8ZuMx5tyPQ">
+                    </span>  
+                    <span class="thumbnail" onclick="openModal_3(); currentSlide(6, slideshow3)">
+                        <img src="https://i.ytimg.com/vi/af54VcazPes/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLCo9j-16ufKbp1L3_KUG_iGL0LJ6g">
+                    </span>
+                </div>
+            </div>
+        </main>
+
+
+
+
+            <div class="shadowbox" id="shadowbox1">
+                <span class="close cursor" onclick="closeModal_1()">&times;</span>
+                <div class="shadow-box-content" id="slideshow1">
+                
+                    <div class="slides">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/u9mJcQ79AQ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                
+                    <div class="slides">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/SqhRYSgNMVs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                
+                    <div class="slides">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/U6AS1TKIzZw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                
+                    <div class="slides">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/UfiJJziqDAg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                
+                    <div class="slides">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/eTzaV3-QwA0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                
+                    <div class="slides">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Lk_EFNhojQ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                
+                    <a class="prev" onclick="plusSlides(-1, this.parentNode)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, this.parentNode)">&#10095;</a>
+                    <br>
+                    <div class="slider-menu" style="text-align: center;">
+                        <span class="demo" onclick="currentSlide(1, slideshow1)">
+                            <img src="https://i.ytimg.com/vi/u9mJcQ79AQ8/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLDLNWgvr4ZeK8l2JOak50rUPWasfg">
+                        </span> 
+                        <span class="demo" onclick="currentSlide(2, slideshow1)">
+                            <img src="https://i.ytimg.com/vi/SqhRYSgNMVs/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLACuQSaGNaZ5m8fPTBJFC3LZIQb4A">
+                        </span> 
+                        <span class="demo" onclick="currentSlide(3, slideshow1)">
+                            <img src="https://i.ytimg.com/vi/U6AS1TKIzZw/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLDnCzw-e_MJQ8ZYSB0Ibvk5L_3Zvw">
+                        </span>
+                        <span class="demo" onclick="currentSlide(4, slideshow1)">
+                            <img src="https://i.ytimg.com/vi/UfiJJziqDAg/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLD8nbALg6rKaRZbjLaIqdfE-k_Ojw">
+                        </span> 
+                        <span class="demo" onclick="currentSlide(5, slideshow1)">
+                            <img src="https://i.ytimg.com/vi/eTzaV3-QwA0/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLCFlXgQaNjrM3KgeNprQDOU5KoYug">
+                        </span>  
+                        <span class="demo" onclick="currentSlide(6, slideshow1)">
+                            <img src="https://i.ytimg.com/vi/Lk_EFNhojQ8/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLAFoPFCahgc2oqgyeF3MwiprbKDxw">
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="shadowbox" id="shadowbox2">
+                    <span class="close cursor" onclick="closeModal_2()">&times;</span>
+                    <div class="shadow-box-content" id="slideshow2">
+                    
+                        <div class="slides">
+                            <iframe width="560" height="315" src="https://youtube.com/embed/h82dGNRM1mI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    
+                        <div class="slides">
+                            <iframe width="560" height="315" src="https://youtube.com/embed/XVfKRW81X-g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    
+                        <div class="slides">
+                            <iframe width="560" height="315" src="https://youtube.com/embed/rGMQiZ4aPSA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    
+                        <div class="slides">
+                            <iframe width="560" height="315" src="https://youtube.com/embed/FpjD17J-kAw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    
+                        <div class="slides">
+                            <iframe width="560" height="315" src="https://youtube.com/embed/oAJGGPV16OM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    
+                        <div class="slides">
+                            <iframe width="560" height="315" src="https://youtube.com/embed/0Jctx72sOjs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    
+                        <a class="prev" onclick="plusSlides(-1, this.parentNode)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, this.parentNode)">&#10095;</a>
+                        <br>
+                        <div class="slider-menu" style="text-align: center;">
+                            <span class="demo" onclick="currentSlide(1, slideshow2)">
+                                <img src="https://i.ytimg.com/vi/h82dGNRM1mI/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLC634ELNKjqc11TVbOiuDiAKJewdA">
+                            </span> 
+                            <span class="demo" onclick="currentSlide(2, slideshow2)">
+                                <img src="https://i.ytimg.com/vi/XVfKRW81X-g/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLBtV4nu0iYVkaaaptcxhxMjuoqGbA">
+                            </span> 
+                            <span class="demo" onclick="currentSlide(3, slideshow2)">
+                                <img src="https://i.ytimg.com/vi/rGMQiZ4aPSA/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLDWR39Xxjph6P8c8xc8Z1I7zisqhQ">
+                            </span>
+                            <span class="demo" onclick="currentSlide(4, slideshow2)">
+                                <img src="https://i.ytimg.com/vi/FpjD17J-kAw/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLBK3kOwaPzCIb4f5zZK2Um1XssV7Q">
+                            </span> 
+                            <span class="demo" onclick="currentSlide(5, slideshow2)">
+                                <img src="https://i.ytimg.com/vi/oAJGGPV16OM/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLB21EJg31GEaizDWbj0lBdUcADhMg">
+                            </span>  
+                            <span class="demo" onclick="currentSlide(6, slideshow2)">
+                                <img src="https://i.ytimg.com/vi/0Jctx72sOjs/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLB08vKOGjWAdEP_Y5c4oxQzy6mj6w">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="shadowbox" id="shadowbox3">
+                        <span class="close cursor" onclick="closeModal_3()">&times;</span>
+                        <div class="shadow-box-content" id="slideshow3">
+                        
+                            <div class="slides">
+                                <iframe width="560" height="315" src="https://youtube.com/embed/nNzujxmVsPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        
+                            <div class="slides">
+                                <iframe width="560" height="315" src="https://youtube.com/embed/zuzNd513U0M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        
+                            <div class="slides">
+                                <iframe width="560" height="315" src="https://youtube.com/embed/XmmJ_F-_p_o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        
+                            <div class="slides">
+                                <iframe width="560" height="315" src="https://youtube.com/embed/pDQZRhQq584" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        
+                            <div class="slides">
+                                <iframe width="560" height="315" src="https://youtube.com/embed/5tt91hNjs3o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        
+                            <div class="slides">
+                                <iframe width="560" height="315" src="https://youtube.com/embed/af54VcazPes" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        
+                            <a class="prev" onclick="plusSlides(-1, this.parentNode)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1, this.parentNode)">&#10095;</a>
+                            <br>
+                            <div class="slider-menu" style="text-align: center;">
+                                <span class="demo" onclick="currentSlide(1, slideshow3)">
+                                    <img src="https://i.ytimg.com/vi/nNzujxmVsPo/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLB0pu3128RHPHM9E0zzTFiwgD5tnQ">
+                                </span> 
+                                <span class="demo" onclick="currentSlide(2, slideshow3)">
+                                    <img src="https://i.ytimg.com/vi/zuzNd513U0M/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLAs4ejJpX3PgguWAkh6un-e_U4_Sg">
+                                </span> 
+                                <span class="demo" onclick="currentSlide(3, slideshow3)">
+                                    <img src="https://i.ytimg.com/vi/XmmJ_F-_p_o/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLDtMQEVFtzZxMMbdSChto5d1VdCkQ">
+                                </span>
+                                <span class="demo" onclick="currentSlide(4, slideshow3)">
+                                    <img src="https://i.ytimg.com/vi/pDQZRhQq584/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLB12WnXe5dCRFYLdc2qO_L9hTQ_CQ">
+                                </span> 
+                                <span class="demo" onclick="currentSlide(5, slideshow3)">
+                                    <img src="https://i.ytimg.com/vi/5tt91hNjs3o/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLC2tM3g1-ufa2CfkqCZ8ZuMx5tyPQ">
+                                </span>  
+                                <span class="demo" onclick="currentSlide(6, slideshow3)">
+                                    <img src="https://i.ytimg.com/vi/af54VcazPes/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLCo9j-16ufKbp1L3_KUG_iGL0LJ6g">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+        <footer>
+            <img src="images/logo.png" />
+        </footer>
+
+    <script src="app.js"></script>
+
+    </body>
+
+</html>

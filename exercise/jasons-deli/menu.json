@@ -1,0 +1,37 @@
+{
+	"appetizers": [{
+		"name": "Cheese Sticks",
+		"ingredients": ["Cheese", "Breading"]
+	}, {
+		"name": "Onion Rings",
+		"ingredients": ["onions", "Breading"]
+	}, "Chips and Dip"],
+	"cold sandwiches": [{
+		"name": "Ham",
+		"ingredients": ["Ham", "Cheese", "Bread"]
+	}, "Italian", {
+		"name": "Tuna Fish",
+		"ingredients": ["tunna", "mayo", "bread"]
+	}],
+	"hot sandwiches": [" Philly Cheese", {
+		"name": "Pulled Pork",
+		"ingredients": ["pork", "BBQ Sauce", "Bread"]
+	}, {
+		"name": "Meatball Sliders",
+		"ingredients": ["meatballs", "bread"]
+	}],
+	"deserts": [{
+		"names": "Cookies",
+		"Types": ["Chocolate Chip", "M&M", "Sugar"]
+	}, "Brownies", {
+		"name": "Ice Cream Sandwich",
+		"ingredients": ["cookies", "Ice Cream"]
+	}],
+	"drinks": [{
+		"brand": "Coke",
+		"flavors": ["cherry", "deiet"]
+	}, {
+		"name": "Tea",
+		"flavors": ["Sweetend", "unsweetend"]
+	}, "Juice"]
+}
