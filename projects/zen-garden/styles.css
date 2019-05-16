@@ -5,81 +5,130 @@
 }
 
 body{
+    grid-template-columns: auto 80% auto;
     color: #325050;
-    font-size: 70%;
+    background: #fff;
     font-family: 'Libre Baskerville', sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
 }
 
-header{    
+header{
+    height: 230px;
     background: #2d6360 50% 0 url(image/huntington.jpg) no-repeat;
     background-attachment: fixed, fixed, fixed, scroll;
     background-image: url(image/contours.png), url(image/noise.png), url(image/gridlines.png), url(image/huntington.jpg);
     background-position: 0 0, 0 0, -5px -25px, 0 50%;
     background-repeat: repeat, repeat, repeat, no-repeat;
     background-size: auto, auto, auto, cover;
-    height: 230px;
-    padding: 20px 0px 70px 0px;
-    text-align: center
+    text-align: center;
 }
 
-.h1-before{
+footer {
+    clear: both;
+    padding: 3em 10%;
+    color: #fff;
+    background: #134347;
+    text-align: center;
+}
+
+a{
+    color: #325050;
+}
+
+h1 {
+    padding-top: 5%;
+    padding-bottom: 1%;
+    border-bottom: none;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 3.2em;
+    color: white;
+    font-weight: normal;
+}
+
+h1::before {
     display: inline-block;
     position: relative;
-    top:20px;
-    height: 80px;
+    top: 20px;
     width: 80px;
-    background: url(image/enso.svg);
-    background-size: contain;
-}
-
-h1{
-    display: inline-block;
-    color: #FFFFFF;
-    font-size: 3.2em;
-    font-family: 'Julius Sans One', sans-serif;
-    text-transform: uppercase;
-    font-weight: normal;
+    height: 80px;
+    margin: -20px 20px 0 0;
+    background: url('image/enso.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.6;
 }
 
 h2{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 1.6em;
     font-style: italic;
     font-weight: normal;
 }
 
-h3{
-    font-size: 1.25em;
+p, h3{
+ width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.summary{
+    padding-top: 5%;
+}
+
+.summary a{
+    color: #809b7e;
     font-family: 'Julius Sans One', sans-serif;
-    text-transform: uppercase;
-    font-weight: normal;
-    margin: .5em;
 }
 
-main{
-    width: 80%;
-    margin: auto;
+.summary a::before{
+    padding: 2px;
+    color: #a9b995;
+    background: #d9e1cd;
+    content: "D";    
+    font-family: 'verdemoderna'
 }
 
-.main1{
-    margin-top: 2em;
-}
-
-.main2{
-    width: 100%;
-    padding: 35px;
+.green{
     background-attachment: scroll, scroll, fixed;
     background-color: rgba(138,188,159,0.5);
-    background-image: url(contours-opaque.png), url(gridlines-opaque.png), url(bamboo.png);
+    background-image: url(image/contours-opaque.png), url(image/gridlines-opaque.png), url(image/bamboo.png);
     background-repeat: repeat, repeat, no-repeat;
     background-size: auto, auto, cover;
 }
 
-p{
-    padding: 10px;
+.green h3{
+    padding-top:3%;
 }
 
 .bottom-banner{
+    padding: 60px;
+    color: rgba(255, 255, 255, 0.4);
+    background: #3e5d67;
+    background-attachment: fixed, fixed, fixed, scroll;
     background-image: url(image/contours.png), url(image/gridlines.png), url(image/noise.png), url(image/koi.jpg);
-    background-size: 50% auto, auto, auto, cover; 
+    background-position: 0 0, -5px -25px, 0 0, 0 50%;
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    background-size: auto, auto, auto, cover;
+    font-style: italic;
+    text-align: center;
+    font-size: 6px;
+}
+
+.bottom-banner a{
+    color: rgba(255, 255, 255, 0.7)
+}
+
+#required{
+    padding-top: 3%;
+}
+
+#resorce{
+    margin: auto;
+    background-color: rgba(138,188,159,0.5);
+    background-image: url(image/bamboo.png);
+}
+li{
+    float: left;
+    width: 50%;
+    height: 50px;
 }

@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#colorContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
+}
+
+#colorContainer div{
+    padding: 15pt;
+}

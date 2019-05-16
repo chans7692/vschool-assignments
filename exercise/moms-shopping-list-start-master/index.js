@@ -1,18 +1,27 @@
-// let addItem = document.addItem
-// let listForm = document.list
-// let input = addItem.title
-// let list = document.getElementById('list')
+let addItem = document.getElementById('add-todo')
+let title = addItem.title
+let list = document.getElementById('list')
 
 
-// addItem.onsubmit = function(event){
-//     event.preventDefault()
-// let newItem = document.createElement('li')
-// newItem.innerHTML = `<li><lable>${input.value}</lable><br><button>edit</button><button name="delete">X</button></li>`
-// list.appendChild(newItem)
-// addItem.reset()
-// }
+addItem.addEventListener('submit', function(event){
+    event.preventDefault()
+let newItem = document.createElement('li')
+let lable = document.createElement('lable')
+let br = document.createElement('br')
+let edit = document.createElement('button')
+let del = document.createElement('button')
 
-function myFunction(click) { 
-    event.target.remove()
-  }
 
+lable.innerText = title.value
+edit.innerHTML = 'edit'
+del.innerHTML = 'X'
+newItem.appendChild(lable)
+newItem.appendChild(br)
+newItem.appendChild(edit)
+newItem.appendChild(del)
+list.appendChild(newItem)
+})
+
+del = document.getElementsByTagName('button').addEventListener('click', function(){
+    this.parentNode.remove()
+})

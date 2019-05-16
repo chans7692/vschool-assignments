@@ -14,6 +14,7 @@ function displayTodos(todos) {
         let parentDiv = document.createElement("div")
         let titleH2 = document.createElement("h2")
         let description = document.createElement("p")
+        let imgUrl = document.createElement('img')
         let btnDiv = document.createElement("div")
         let dlb = document.createElement("button")
         let edit = document.createElement("button")
@@ -25,6 +26,7 @@ function displayTodos(todos) {
         edit.innerText = "Edit"
 
         parentDiv.setAttribute("class", "todoBox")
+        imgUrl.setAttribute('src', todo.imgUrl)
         btnDiv.setAttribute("class", "btn-div")
         checkBox.setAttribute("type", "checkbox")
         checkBox.setAttribute("class", "check-box")
@@ -59,12 +61,14 @@ function displayTodos(todos) {
             let editForm = document.createElement("form")
             let newTitle = document.createElement("input")
             let newDescription = document.createElement("input")
+            let newImg = document.createElement('input')
             let save = document.createElement("button")
             let cancel = document.createElement("button")
 
             editForm.setAttribute("class", "edit-form")
             newTitle.setAttribute("value", todo.title)
             newDescription.setAttribute("value", todo.description)
+            newImg.setAttribute('value', todo.imgUrl)
             save.setAttribute("type", "submit")
             cancel.setAttribute("type", "button")
             save.innerText = "Save"
@@ -72,6 +76,7 @@ function displayTodos(todos) {
 
             editForm.appendChild(newTitle)
             editForm.appendChild(newDescription)
+            editForm.appendChild(newImg)
             editForm.appendChild(save)
             editForm.appendChild(cancel)
             parentDiv.appendChild(editForm)
@@ -104,6 +109,7 @@ function displayTodos(todos) {
         parentDiv.appendChild(todoItem)
         todoItem.appendChild(titleH2)
         todoItem.appendChild(description)
+        todoItem.appendChild(imgUrl)
         todoItem.appendChild(btnDiv)
         btnDiv.appendChild(dlb)
         btnDiv.appendChild(edit)
@@ -120,9 +126,11 @@ form.addEventListener('submit', function (event) {
 
     let title = form.title.value
     let description = form.description.value
+    let imgUrl = form.imgUrl.value
     newTodo = {
         title,
         description,
+        imgUrl
     }
     axios.post("https://api.vschool.io/charles/todo", newTodo).then((response) => {
         displayTodos([response.data])
