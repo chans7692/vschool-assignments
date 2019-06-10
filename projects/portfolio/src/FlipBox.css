@@ -1,0 +1,104 @@
+#code {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1255px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    justify-items: center;
+  }
+  
+  #projects div {
+    text-align: center;
+  }
+  
+  #code div {
+    padding: 0;
+    margin: 32px;
+  }
+  
+  #code div div {
+    margin: 0;
+  }
+  
+  .flip-box-inner {
+    background-color: transparent;
+    width: 250px;
+    height: 350px;
+    padding: 0;
+    transition: transform 0.8s;
+    transition-timing-function: ease-in-out;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+  }
+  
+  .flip-box-inner:hover {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front,
+  .flip-box-back {
+    position: absolute;
+    width: 250px;
+    height: 350px;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-back {
+    background-color: whitesmoke;
+    color: black;
+    transform: rotateY(180deg);
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  #html5 {
+    background: url('./images/html-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  #css3 {
+    background: url('./images/css-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  #javascript {
+    background: url('./images/javascript-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  #react {
+    background: url('./images/react-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  #node {
+    background: url('./images/node-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  #html5b {
+    border: inset 10px #E44D27;
+  }
+  
+  
+  #css3b {
+    border: inset 10px #2261AF
+  }
+  
+  #javascriptb {
+    border: inset 10px #E4A226;
+  }
+  
+  #reactb {
+    border: inset 10px #34D9FE;
+  }
+  
+  #nodeb {
+    border: inset 10px #8CC84A;
+  }

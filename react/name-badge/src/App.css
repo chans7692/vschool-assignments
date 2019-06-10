@@ -1,0 +1,58 @@
+#main-container{
+  display: grid;
+  justify-content: center
+}
+
+#badge-form{
+  width: 500px;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr 1fr;
+  border: solid 1px lightgrey;
+  border-radius: 15px;
+  padding: 50px;
+}
+
+#badge-form textarea{
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#badge-form button{
+  position: relative;
+  display: block;
+  left: 50%;
+}
+
+.badge-header{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  color: white;
+  background: lightgray;
+  position: relative;
+  top: 50px;
+  font-size: 10px;
+  padding-left: 15px;
+  border-radius: 15px;
+}
+
+.badge{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: solid 1px lightgrey;
+  border-radius: 15px;
+  padding: 50px;
+}
+
+.badge h2{
+  font-size: 15px;
+}
+
+.badge div{
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  border: solid 1px lightgrey;    
+  padding-left: 15px;    
+  height: 160px;
+}

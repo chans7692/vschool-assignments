@@ -10,6 +10,7 @@ let lable = document.createElement('lable')
 let br = document.createElement('br')
 let edit = document.createElement('button')
 let del = document.createElement('button')
+del.setAttribute('class', 'del')
 
 
 lable.innerText = title.value
@@ -22,6 +23,6 @@ newItem.appendChild(del)
 list.appendChild(newItem)
 })
 
-del = document.getElementsByTagName('button').addEventListener('click', function(){
-    this.parentNode.remove()
+del = document.getElementsByClassName('del').addEventListener('click', function(){
+    this.parentNode.remove(this)
 })

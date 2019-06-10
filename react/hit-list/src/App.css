@@ -1,0 +1,53 @@
+img{
+  height: 200px;
+  width: 150px;
+}
+
+#root{
+  display: grid;
+  justify-content: center;
+}
+
+.App{
+  display: grid;
+  justify-content: center;
+  width: 800px;
+  background: whitesmoke;
+  padding-top: 50px;
+}
+
+.header{
+  background: #202020;
+  width: 800px;
+}
+
+.header img{
+  height: 80px;
+  width: auto;
+  float: left;
+}
+
+h1{
+  font-size: 25px;
+  color: #931D19;
+}
+
+.hit-cards{
+  width: 150px;
+  display: grid;
+  justify-content: space-evenly;
+  grid-gap: 35px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.name{
+  display: grid;
+  align-content: center;
+  position: relative;
+  top: -40px;
+  text-align: center;
+  font-size: 15px;
+  height: 35px;
+  color: white;
+  background: rgba(44, 98, 151, .60)
+}

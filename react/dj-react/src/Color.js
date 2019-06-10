@@ -1,11 +1,11 @@
 import React from 'react'
 
 const Color = (props) => {
-    console.log(props.card)
+    console.log(props.color)
 
-    let {background} = props.card
+    let color = props.color
     return (
-        <div style={{background}}>
+        <div style={{background: color}}>
         </div>
     )
 }

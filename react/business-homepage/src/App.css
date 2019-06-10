@@ -1,0 +1,59 @@
+a{
+  text-decoration: none;
+}
+
+.app{
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 100px auto 150px;
+  height: 100%;
+}
+
+.header{
+  display: grid;
+  width: 100%;
+  background: url(https://www.cbsinet.com/img/banner-construct.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: lightgrey;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+.nav{
+  display: inline-flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 18px;
+  background: #222222;
+  width: 100%;
+}
+
+.nav a{
+  color: #A9A9A9;
+}
+
+.nav a+a{
+  border-left: solid 1px #A9A9A9;
+  padding-left: 15%;
+}
+
+.content{
+  padding: 15px;
+  margin: 40px auto;
+  width: 80%;
+  background: whitesmoke;
+}
+
+.footer{
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background: #222222;
+  color: #A9A9A9;
+}
+
+.footer div{
+  padding-left: 15px;
+  padding-right: 15px;
+}
