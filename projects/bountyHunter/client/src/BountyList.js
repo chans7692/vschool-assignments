@@ -9,15 +9,14 @@ class BountyList extends Component {
     }
     
     render() {
-        console.log(this.props)
         
-        const mappedBountys = this.props.bountys.map((bounty)=> <Bounty title={this.props} />)
+        const mappedBountys = this.props.bountys.map((bounty)=> <Bounty bounty={bounty} />)
         return (
             <div>
                {mappedBountys} 
             </div>
-        );
+        )
     }
 }
 
-export default withBounty(BountyList);
+export default withBounty(BountyList)

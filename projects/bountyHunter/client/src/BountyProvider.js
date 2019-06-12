@@ -26,16 +26,18 @@ class BountyProvider extends Component {
         })
     }
 
-    editBounty = (newBountyData) => {
-        axios.put('bounty', newBountyData).then((response) => {
+    editBounty = (_id, newBountyData) => {
+        axios.put(`bounty${_id}`, newBountyData).then((response) => {
             this.setState(prevState => ({
                 bountys: [...prevState.bountys, response.data]
             }))
         })
     }
 
-    deleteBounty = (ID) => {
-        axios.delete(`bounty/${ID}`)}
+    deleteBounty = (id) => {axios.delete(`bounty/${id}`).then((response) => {
+            return this.getBountys()
+        })
+    }
 
     render() {
         return (
