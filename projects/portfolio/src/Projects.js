@@ -11,10 +11,10 @@ import recipe from "./images/recipe-book.png"
 function Projects(props) {
     return (
         <>
-            <div className='project-card'><img src=alt={todo} className='image' />
+            <div className='project-card'><img src={todo} alt="" className='image' />
                 <div className='overlay'>
                     <h2>Axios Todo</h2>
-                    <a href=''>Code</a>
+                    <a href='https://github.com/chans7692/vschool-assignments/tree/master/projects/axiosTodo'>Code</a>
                     <div><a href="http://charles-axios-todo.sh">App</a></div>
                 </div>
             </div>
@@ -51,7 +51,7 @@ function Projects(props) {
             <div className='project-card'><img src=alt={recipe} className='image' />
                 <div className='overlay'>
                     <h2>Gluten Free Book</h2>
-                    <a href=''>Code</a>
+                    <a href='https://github.com/chans7692/vschool-assignments/tree/master/projects/portfolio'>Code</a>
                     <div><a href="http://gluten-free-book.surge.sh">App</a></div>
                 </div>
             </div>
