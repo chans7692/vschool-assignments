@@ -12,14 +12,15 @@ body {
 .container {
   display: block;
   overflow: hidden;
-  transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);  
+  height: 56em;
+  width: 1010em;
 }
 
 .sliding-background {
   background: url('image/SuperMarioBrosMap1-1BG.png')repeat-x;
   background-size: contain;
-  height: 39em;
-  width: 10746px;
+  height: 100%;
   animation: moveSlideshow 120s linear infinite;
 }
 
@@ -32,10 +33,9 @@ body {
 
 .content {
   position: absolute; 
-  top: 0; 
-  left: 0;
+  top: 0;
   height: 100%;
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

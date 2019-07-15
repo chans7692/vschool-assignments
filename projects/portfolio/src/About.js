@@ -1,27 +1,26 @@
 import React from 'react';
 import { withGlobal } from './GlobalProvider'
+import './stylesheets/About.css'
 
 function About(props) {
     return (
             <>
                 <div className='div-1' id='about'>
-
-                        <p>Parallax scrolling is a web site trend where the background content is moved at a different speed
-                            than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero
-                            turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna
-                            turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis.
-                            Condimentum
-                            dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula.
-                            Varius
-                            quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris
-                            ullamcorper,
-                            dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis
-                            eleifend,
-                            aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare.
-                            Suscipit
-                            proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor
-                            placerat leo.
-                        </p>
+                    <h1>Who Am I</h1>
+                    <br></br>
+                    <p>I am a specialist in all things development, web development that is. I am dedicated to creating
+                        the very best of websites, with a focus on function, usability, and style.
+                        I have come a long way from studying HTML and CSS myself in my basement and doing one-off
+                        WordPress sites on the side. When I first started out, my passion for web design was hindered
+                        only by my inability to progress on my own. This drove me to seek out help from other like
+                        minded programmers, so I enrolled myself into V-School, a three month coding boot-camp in
+                        downtown Salt Lake City, Utah. I now the training and experience to produce websites from the
+                        ground up, and am thrilled that I turn my passion into a life long career.
+                    </p>
+                    <br></br>
+                    <p>
+                        I hope you enjoy my projects as much as I enjoyed creating them.
+                    </p>
                 </div>
 
                 <div id="bgimg-2">

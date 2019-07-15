@@ -4,10 +4,8 @@ import { Switch, Route } from 'react-router-dom'
 import Navbar from './Navbar'
 import MainContent from './MainContent'
 import Resume from './Resume';
-import './App.css'
-import './Resume.css'
-import './FlipBox.css'
-import './Navbar.css'
+import './stylesheets/App.css'
+import './stylesheets/Media.css'
 
 class App extends Component {
 

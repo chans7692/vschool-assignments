@@ -1,4 +1,5 @@
 const form = document.form
+const editForm = document.editForm
 
 //Get From API
 axios.get("https://api.vschool.io/charles/todo").then((response) => {
@@ -17,13 +18,13 @@ function displayTodos(todos) {
         let imgUrl = document.createElement('img')
         let btnDiv = document.createElement("div")
         let dlb = document.createElement("button")
-        let edit = document.createElement("button")
+        // let edit = document.createElement("button")
         let checkBox = document.createElement("input")
 
         titleH2.innerText = todo.title
         description.innerText = todo.description
         dlb.innerText = "Delete"
-        edit.innerText = "Edit"
+        // edit.innerText = "Edit"
 
         parentDiv.setAttribute("class", "todoBox")
         imgUrl.setAttribute('src', todo.imgUrl)
@@ -54,66 +55,69 @@ function displayTodos(todos) {
             }
         })
 
-        //Edit Form------------------------------------------
-        edit.addEventListener("click", function () {
-            parentDiv.removeChild(todoItem)
+        // //Edit Form------------------------------------------
+        // edit.addEventListener("click", function () {
+        //     parentDiv.removeChild(todoItem)
             
-            let editForm = document.createElement("form")
-            let newTitle = document.createElement("input")
-            let newDescription = document.createElement("input")
-            let newImg = document.createElement('input')
-            let save = document.createElement("button")
-            let cancel = document.createElement("button")
+        //     let editForm = document.createElement("form")
+        //     let newTitle = document.createElement("input")
+        //     let newDescription = document.createElement("input")
+        //     let newImg = document.createElement('input')
+        //     let save = document.createElement("button")
+        //     let cancel = document.createElement("button")
 
-            editForm.setAttribute("class", "edit-form")
-            newTitle.setAttribute("value", todo.title)
-            newDescription.setAttribute("value", todo.description)
-            newImg.setAttribute('value', todo.imgUrl)
-            save.setAttribute("type", "submit")
-            cancel.setAttribute("type", "button")
-            save.innerText = "Save"
-            cancel.innerText = "Cancel"
+        //     editForm.setAttribute("class", "editForm")
+        //     newTitle.setAttribute("name", "newTitle")
+        //     newTitle.setAttribute("placeholder", todo.title)
+        //     newDescription.setAttribute("value", todo.description)
+        //     newImg.setAttribute('value', todo.imgUrl)
+        //     save.setAttribute("type", "submit")
+        //     cancel.setAttribute("type", "button")
+        //     save.innerText = "Save"
+        //     cancel.innerText = "Cancel"
 
-            editForm.appendChild(newTitle)
-            editForm.appendChild(newDescription)
-            editForm.appendChild(newImg)
-            editForm.appendChild(save)
-            editForm.appendChild(cancel)
-            parentDiv.appendChild(editForm)
+        //     editForm.appendChild(newTitle)
+        //     editForm.appendChild(newDescription)
+        //     editForm.appendChild(newImg)
+        //     editForm.appendChild(save)
+        //     editForm.appendChild(cancel)
+        //     parentDiv.appendChild(editForm)
 
-            editForm.addEventListener("submit", function (event) {
-                event.preventDefault()
+        //     console.log(editForm.newTitle.value)
 
-                let newTodoTitle = newTitle.value
-                let newTodoDescription = newDescription.value
-                console.log(newTitle)
-                console.log(newDescription)
-                saveEdit = {
-                    "title": newTodoTitle,
-                    "description": newTodoDescription,
-                }
-                axios.put(`https://api.vschool.io/charles/todo/${todo._id}`, saveEdit).then((response) => {
-                    document.getElementById("main").removeChild(parentDiv)        
-                    displayTodos([response.data])
-                })
-            })
+        //     save.addEventListener("submit", function (event) {
+        //         event.preventDefault()
+        //         let newTodoTitle = editForm.newTitle.value
+        //         let newTodoDescription = newDescription.value
+        //         let newImg = newImg.value
+        //         console.log(newTodoTitle)
+        //         saveEdit = {
+        //             "title": newTodoTitle,
+        //             "description": newTodoDescription,
+        //             "image": newImg
+        //         }
+        //         axios.put(`https://api.vschool.io/charles/todo/${todo._id}`, saveEdit).then((response) => {
+        //             document.getElementById("main").removeChild(parentDiv)        
+        //             displayTodos([response.data])
+        //         })
+        //     })
 
-            cancel.addEventListener("click", function(){
-                parentDiv.removeChild(editForm)
-                parentDiv.appendChild(todoItem)
-            })
+        //     cancel.addEventListener("click", function(){
+        //         parentDiv.removeChild(editForm)
+        //         parentDiv.appendChild(todoItem)
+        //     })
 
-        })
+        // })
 
         //Append Elements-------------------------------------
         parentDiv.appendChild(todoItem)
+        btnDiv.appendChild(checkBox)
         todoItem.appendChild(titleH2)
         todoItem.appendChild(description)
         todoItem.appendChild(imgUrl)
         todoItem.appendChild(btnDiv)
         btnDiv.appendChild(dlb)
-        btnDiv.appendChild(edit)
-        btnDiv.appendChild(checkBox)
+        // btnDiv.appendChild(edit)
 
         document.getElementById("main").appendChild(parentDiv)
 

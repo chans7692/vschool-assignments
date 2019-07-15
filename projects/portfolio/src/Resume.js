@@ -1,7 +1,8 @@
 import React from 'react';
 import { withGlobal } from './GlobalProvider'
 import { Link } from 'react-router-dom'
-import resume from './images/Resume.pdf'
+import './stylesheets/Resume.css'
+import resume from './images/resume.pdf'
 import Clear from '@material-ui/icons/Clear'
 
 function Resume() {

@@ -2,7 +2,7 @@ import React from 'react'
 import { withGlobal } from './GlobalProvider'
 import TopBanner from './TopBanner'
 import About from './About'
-import Code from './Code'
+import Code from './FlipBox'
 import Projects from './Projects'
 
 function MainContent(props) { 

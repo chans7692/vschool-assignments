@@ -9,11 +9,23 @@ class GlobalProvider extends Component{
             topPosition: '',
             topDisplay: '0px',
             navWidth: '50px',
+            navHeight: '-93%',
+            downDisplay: 'inline-block',
+            upDisplay: 'none',
+            showRes: 'block',
+            position: ''
         }
     }
 
     componentDidMount() {
       window.addEventListener('scroll', ()=>this.scrollFunction());
+      document.body.scrollTop = `${this.state.position}`
+   }
+
+   componentWillUnmount(){
+       this.setState({
+           position: document.body.scrollTop
+       })
    }
 
     scrollFunction = () => {
@@ -25,15 +37,20 @@ class GlobalProvider extends Component{
         document.documentElement.scrollTop = 0;
     }
 
-    openNav = () => {
-        this.state.navWidth === '50px' ? this.setState({navWidth: '250px'}) : this.setState({navWidth: '50px'})
+    toggleNavLeft = () => {
+        this.state.navWidth === '50px' ? this.setState({navWidth: '250px'}) : this.setState({navWidth: '50px'});
+    }
+
+    toggleNavTop = () => {
+        this.state.navHeight === '-93%' ? this.setState({navHeight: '0', downDisplay: 'none', upDisplay: 'inline-block'}) : this.setState({navHeight: '-93%', downDisplay: 'inline-block', upDisplay: 'none'});
     }
 
   render(){
     const value = {
       scrollFunction: this.scrollFunction,
       topFunction: this.topFunction,
-      openNav: this.openNav,
+      toggleNavLeft: this.toggleNavLeft,
+      toggleNavTop: this.toggleNavTop,
       ...this.state
     }
     return (

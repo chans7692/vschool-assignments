@@ -1,0 +1,59 @@
+import React from 'react'
+
+function Works () {
+    return(
+        <div>
+        <div class="outer-container">
+            <div class="inner-container">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGIFEqEDkRNSHKI-pM1B-I1qWecoxnILpaVeQJTwTDsLXKuoPcwg" alt="">
+                <p>
+                    Where did the knife blade come from?
+                    Homo sapiens has been around for about 100,000 years. Surprisingly, he was not the first knife
+                    maker. Evidence shows that the recently identified hominid species, Australopithecus garhi, was a
+                    tool and knife maker, deliberately selecting and modifying specific raw materials in a sophisticated
+                    and consistent way, and with careful intent. He was making double-edged knives about 2.5 million
+                    years ago. This technology gave its inventors an astonishing advantage - the ability to shift to an
+                    energy-rich, high-fat diet which led to all kinds of evolutionary consequences.
+                    <br><br><br>
+                    <div class="quote">
+                        "Fossils of Australopithecus garhi are associated with some of the oldest known stone tools,
+                        along with animal bones that were cut and broken open with stone tools. It is possible, then,
+                        that this species was among the first to make the transition to stone toolmaking and to eating
+                        meat and bone marrow from large animals."
+                        <br>
+                        <i style="float:right;">--Smithsonian National Museum of Natural History</i>
+                    </div>
+                    <br>
+                    Millions of years have passed since man first noticed that a sharp flake of obsidian, flint, or
+                    agate
+                    could cut. No one knows when the birth of the cutting edge took place; it is enough to understand
+                    that
+                    the knife was man’s first tool, predating modern man (Homo sapiens sapiens). No image, figure or
+                    shape
+                    would carve his destiny so profoundly, and even today every item and component of everything we
+                    touch,
+                    eat, wear, or drive has at one time been touched by a cutting edge. We humans, without fang or claw,
+                    will always require our essential edge, and are simply naked without it. We are a creature that cuts
+                    and
+                    shapes things: our food, our clothing, our shelters, our very environment and attitudes are based on
+                    our
+                    ability to create, and that ability's first and foremost tool is the cutting edge.
+
+                    The origins of the word knife are from the Middle English (450-1150 A.D.) word knif and knyf, from
+                    the
+                    Anglo Saxon word cnif. Who knows what a knife was called before that? The origin of the word blade
+                    is
+                    similar, in Middle English it was blad and blade, from the Anglo Saxon word blæd, which means a
+                    leaf.
+                    <div class="citation">
+                        <p>--Content credited to <i>Jay Fisher @ https://www.jayfisher.com/</i></p>
+                    </div>
+                </p>
+
+            </div>
+        </div>
+    </div>
+    )
+}
+
+export default Works
