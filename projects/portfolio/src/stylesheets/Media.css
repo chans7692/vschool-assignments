@@ -31,6 +31,10 @@
         padding: 0;
     }
 
+    .social{
+        width: 100%;
+    }
+
     .open-nav{
         display: none;
     }

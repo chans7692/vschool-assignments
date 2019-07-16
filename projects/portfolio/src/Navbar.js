@@ -34,6 +34,17 @@ function Navbar(props) {
                 <Link id='show-res' to='/resume' onClick={props.toggleNavLeft}>Resume</Link>
                 <i className='fas fa-angle-down' style={downArrow} onClick={props.toggleNavTop}></i>
                 <i className='fas fa-angle-up' style={upArrow} onClick={props.toggleNavTop}></i>
+                <ul className='social'>
+                    <li>
+                        <a href="https://www.linkedin.com/in/charles-hansen-4a26b5184/"><i class='fab fa-linkedin'></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/chans7692"><i class='fab fa-github'></i></a>
+                    </li>
+                    <li>
+                        <a href="mailto: chans7692@gmail.com"><i class='far fa-envelope'></i></a>
+                    </li>
+                </ul>
             </div>
             <div onClick={props.topFunction} style={topButton} id="myBtn" title="Go to top">
                 <p>Go To Top</p>
