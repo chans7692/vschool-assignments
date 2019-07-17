@@ -13,7 +13,7 @@ function Projects(props) {
     return (
         <>
             <div className='content projects' id='projects'>
-                <h1>My Works</h1>
+                <h1>My Projects</h1>
                 <div className='project-card'><img src={todo} alt="" className='image' />
                     <div className='overlay'>
                         <h2>Axios Todo</h2>
@@ -63,12 +63,6 @@ function Projects(props) {
                     <a href="http://gluten-free-book.surge.sh">App</a>
                 </div>
             </div>
-            </div>
-
-            <div id="bgimg-4">
-                <div className="caption">
-                    <span className="border">Thats All Folks!!</span>
-                </div>
             </div>
         </>
     );

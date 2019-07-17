@@ -7,7 +7,7 @@ html,
 #root,
 .main {
   height: 100%;
-  font: 400 15px/1.8 "Lato", sans-serif;
+  font: 400 100% "Lato", sans-serif;
   color: #777;
   scroll-behavior: smooth;
   width: auto;
@@ -17,7 +17,7 @@ h1, h2, h3 {
   text-align: center;
 }
 
-#bgimg-1, #bgimg-2, #bgimg-3, #bgimg-4, .resume-page {
+#bgimg-1, #bgimg-2, #bgimg-3, .resume-page {
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -26,7 +26,7 @@ h1, h2, h3 {
 
 }
 
-#bgimg-1, #bgimg-4, .resume-page {
+#bgimg-1, .resume-page {
   background-image: url("../images/img_parallax.jpg");
   min-height: 100%;
 }
@@ -115,4 +115,17 @@ h1, h2, h3 {
 
 .route{
   height: 100%;
+}
+
+footer{
+  bottom: 2.5rem;
+  position: relative;
+  padding-bottom: 3rem;
+  width: 100%;
+  background: #282E34;
+}
+
+footer div{
+  margin: 0 auto;
+  width: 20vw;
 }

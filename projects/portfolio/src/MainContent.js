@@ -4,6 +4,7 @@ import TopBanner from './TopBanner'
 import About from './About'
 import Code from './FlipBox'
 import Projects from './Projects'
+import Logo from './images/logo.png'
 
 function MainContent(props) { 
     const mainWidth = {
@@ -16,6 +17,11 @@ function MainContent(props) {
                     <About />
                     <Code />
                     <Projects />
+                <footer>
+                    <div>
+                    <img src={Logo} alt=""/>
+                </div>
+                </footer>
                 </div>
             </>
     );

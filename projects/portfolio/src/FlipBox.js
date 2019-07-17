@@ -8,7 +8,7 @@ class Resume extends Component{
         return (
                 <>
                 <div className='content' id='flipbox'>
-                        <h1>What I Do</h1>
+                        <h1>How I Code</h1>
                         <div className='code'>
                             <div className="flip-box-inner">
                                 <div className="flip-box-front" id='html5'></div>
