@@ -33,11 +33,11 @@ class Resume extends Component{
                                 <div className="flip-box-front" id='javascript'>
                                 </div>
                                 <div className="flip-box-back" id='javascriptb'>
-                                    <p>If HTML is the skeleton and CSS is the skin then JavaScript is the nervus system.
-                                        JavaScript is what animates the website and brings it to life. while not all
-                                        websites need JavaScript it is still an important part of the programming world. I
-                                        know that if there is ever something that I can't figure out in other languages, I
-                                        can always fall back on JavaScript.</p>
+                                    <p>If HTML is the skeleton and CSS is the skin then JavaScript is the *nervous*
+                                        system. JavaScript is what animates the website and brings it to life. while not
+                                        all websites need JavaScript it is still an important part of the programming
+                                        world. I know that if there is ever something that I can't figure out in other
+                                        languages, I can always fall back on JavaScript.</p>
                                 </div>
                             </div>
                             <div className="flip-box-inner">
@@ -55,22 +55,19 @@ class Resume extends Component{
                                 </div>
                                 <div className="flip-box-back" id='nodeb'>
                                     <p>How much time was wasted reinventing the wheel trying to reach the same goal that
-                                        someone else has already meet? With node, I can load and run server-side
-                                        applications that work out all the logic for me.</p> 
-                                    <p>Ok, that may be a little bit of
-                                        an exaggeration but I think you get my point. Just being able to dynamically
-                                        generate a web application before it is ever sent to the user is a big plus in
-                                        my book</p>
+                                        someone else *had* already *met*? With *Node*, I can load and run server-side
+                                        applications that work out all the logic for me.</p>
+                                    <p>Ok, that may be a little bit of an exaggeration but I think you get my point.
+                                        Just being able to dynamically generate a web application before it is ever sent
+                                        to the user is a big plus in my book</p>
                                 </div>
                             </div>
                         </div>
 
                     </div>
-
-                    <div id="bgimg-3">
-                        <div className="caption">
-                        </div>
-                    </div>
+                <div id="bgimg-2">
+                    <div className="caption"></div>
+                </div>
                 </>
         );
     }

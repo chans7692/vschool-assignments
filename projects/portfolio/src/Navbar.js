@@ -28,9 +28,9 @@ function Navbar(props) {
                 </div>
 
                 <a href="/#bgimg-1"><div onClick={props.toggleNavTop}>Top</div></a>
-                <a  href="/#about"><div onClick={props.toggleNavTop}>About</div></a>
                 <a href="/#flipbox"><div onClick={props.toggleNavTop}>Code</div></a>
                 <a href="/#projects"><div onClick={props.toggleNavTop}>Projects</div></a>
+                <a  href="/#about"><div onClick={props.toggleNavTop}>About</div></a>
                 <Link id='show-res' to='/resume' onClick={props.toggleNavLeft}>Resume</Link>
                 <i className='fas fa-angle-down' style={downArrow} onClick={props.toggleNavTop}></i>
                 <i className='fas fa-angle-up' style={upArrow} onClick={props.toggleNavTop}></i>

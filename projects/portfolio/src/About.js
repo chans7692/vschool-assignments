@@ -14,19 +14,18 @@ function About(props) {
                         WordPress sites on the side. When I first started out, my passion for web design was hindered
                         only by my inability to progress on my own. This drove me to seek out help from other like
                         minded programmers, so I enrolled myself into V-School, a three month coding boot-camp in
-                        downtown Salt Lake City, Utah. I now the training and experience to produce websites from the
-                        ground up, and am thrilled that I turn my passion into a life long career.
+                        downtown Salt Lake City, Utah. I now *have* the training and experience to produce websites from
+                        the ground up, and am thrilled that I turn*ed* my passion into a life long career.
                     </p>
                     <br></br>
                     <p>
                         I hope you enjoy my projects as much as I enjoyed creating them.
                     </p>
                 </div>
-
-                <div id="bgimg-2">
-                    <div className="caption"></div>
+                <div id="bgimg-4">
+                    <div className="caption">
+                    </div>
                 </div>
-
             </>
     );
   }

@@ -17,7 +17,7 @@ h1, h2, h3 {
   text-align: center;
 }
 
-#bgimg-1, #bgimg-2, #bgimg-3, .resume-page {
+#bgimg-1, #bgimg-2, #bgimg-3, #bgimg-4, .resume-page {
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -39,6 +39,11 @@ h1, h2, h3 {
 #bgimg-3 {
   background-image: url("../images/img_parallax3.jpg");
   min-height: 400px;
+}
+
+#bgimg-4{
+  min-height: 400px;
+  background-image: url("../images/img_parallax.jpg");
 }
 
 .caption {
@@ -71,10 +76,9 @@ h1, h2, h3 {
 #portrait{
   height: 200px;
   width: 200px;
-  padding: 10px;
   border-radius: 200px;
   position: relative;
-  top: -60px;
+  top: -45px;
   transition: 0.5s;
 }
 
@@ -118,6 +122,8 @@ h1, h2, h3 {
 }
 
 footer{
+  display: flex;
+  justify-content: center;
   bottom: 2.5rem;
   position: relative;
   padding-bottom: 3rem;
@@ -126,6 +132,5 @@ footer{
 }
 
 footer div{
-  margin: 0 auto;
   width: 20vw;
 }

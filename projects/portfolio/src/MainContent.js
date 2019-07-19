@@ -14,9 +14,9 @@ function MainContent(props) {
             <>
                 <div className='main' onClick={props.closeNav} style={mainWidth}>
                     <TopBanner />
-                    <About />
                     <Code />
                     <Projects />
+                    <About />
                 <footer>
                     <div>
                     <img src={Logo} alt=""/>
