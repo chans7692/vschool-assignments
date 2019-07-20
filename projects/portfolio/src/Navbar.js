@@ -27,14 +27,14 @@ function Navbar(props) {
                     <div></div>
                 </div>
 
-                <a href="/#bgimg-1"><div onClick={props.toggleNavTop}>Top</div></a>
-                <a href="/#flipbox"><div onClick={props.toggleNavTop}>Code</div></a>
-                <a href="/#projects"><div onClick={props.toggleNavTop}>Projects</div></a>
-                <a  href="/#about"><div onClick={props.toggleNavTop}>About</div></a>
-                <Link id='show-res' to='/resume' onClick={props.toggleNavLeft}>Resume</Link>
+                <a href="/#bgimg-1"><div className='nav-border' onClick={props.toggleNavTop}>Top</div></a>
+                <a href="/#projects"><div className='nav-border' onClick={props.toggleNavTop}>Projects</div></a>
+                <a  href="/#about"><div className='nav-border' onClick={props.toggleNavTop}>About</div></a>
+                <a href="/#flipbox"><div className='nav-border' onClick={props.toggleNavTop}>Code</div></a>
+                <Link id='show-res' to='/resume' onClick={props.toggleNavLeft}><div className='nav-border'>Resume</div></Link>
                 <i className='fas fa-angle-down' style={downArrow} onClick={props.toggleNavTop}></i>
                 <i className='fas fa-angle-up' style={upArrow} onClick={props.toggleNavTop}></i>
-                <ul className='social'>
+                <ul className='social nav-border'>
                     <li>
                         <a href="https://www.linkedin.com/in/charles-hansen-4a26b5184/"><i class='fab fa-linkedin'></i></a>
                     </li>

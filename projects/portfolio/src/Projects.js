@@ -6,7 +6,7 @@ import marioPestControl from "./images/mario-pest-control.png"
 import silverForge from "./images/silver-forge.png"
 import gitjobs from "./images/git-jobs.png"
 import todo from "./images/axios-todo.png"
-import recipe from "./images/recipe-book.png"
+// import recipe from "./images/recipe-book.png"
 import reactTodo from './images/react-todo.png'
 
 function Projects(props) {
