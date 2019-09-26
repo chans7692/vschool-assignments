@@ -9,7 +9,7 @@ class GlobalProvider extends Component{
             topPosition: '',
             topDisplay: '0px',
             navWidth: '50px',
-            navHeight: '-93%',
+            navHeight: '-92%',
             downDisplay: 'inline-block',
             upDisplay: 'none',
             showRes: 'block',
@@ -42,7 +42,7 @@ class GlobalProvider extends Component{
     }
 
     toggleNavTop = () => {
-        this.state.navHeight === '-93%' ? this.setState({navHeight: '0', downDisplay: 'none', upDisplay: 'inline-block'}) : this.setState({navHeight: '-93%', downDisplay: 'inline-block', upDisplay: 'none'});
+        this.state.navHeight === '-92%' ? this.setState({navHeight: '0', downDisplay: 'none', upDisplay: 'inline-block'}) : this.setState({navHeight: '-92%', downDisplay: 'inline-block', upDisplay: 'none'});
     }
 
   render(){

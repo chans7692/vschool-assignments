@@ -18,9 +18,7 @@ function MainContent(props) {
                     <Projects />
                     <About />
                 <footer>
-                    <div>
                     <img src={Logo} alt=""/>
-                </div>
                 </footer>
                 </div>
             </>

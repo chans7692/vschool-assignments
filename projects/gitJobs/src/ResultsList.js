@@ -5,7 +5,7 @@ import Results from './Results';
 const ResultsList = (props) => {
 const mappedJobs = props.jobs.map((job) => {return <Results mJob={job} />})
         return (
-            <div>
+            <div className='results-list'>
                 {mappedJobs} 
             </div>
         );

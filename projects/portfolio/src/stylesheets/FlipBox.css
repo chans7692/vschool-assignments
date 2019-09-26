@@ -21,7 +21,7 @@
     width: 250px;
     height: 350px;
     padding: 0;
-    transition: transform 0.8s;
+    transition: transform 0.5s;
     transition-timing-function: ease-in-out;
     transform-style: preserve-3d;
     perspective: 1000px;
@@ -41,6 +41,7 @@
     transition-timing-function: ease-in-out;
     transform-style: preserve-3d;
     perspective: 1000px;
+    filter: drop-shadow(1px 1px 4px rgba(255, 255, 255, 0.5));
   }
   
   .flip-box-back{

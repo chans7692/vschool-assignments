@@ -5,7 +5,7 @@
     }
 
     #portrait{
-        top: -3.3vh;
+        top: -3.6vh;
         transition: 0.5s;
     }
 
@@ -20,19 +20,19 @@
     .sidenav{    
         display: flex;
         flex-flow: column;
-        justify-content: space-evenly;
         align-items: center;  
-        top: -90%;
+        top: -92%;
         padding: 0;  
         width: 100% !important;
     }
 
     .sidenav a{
         padding: 0;
-    }
-
-    .social{
         width: 100%;
+    }
+    
+    .social li:first-child {
+        padding-left: 30px;
     }
 
     .open-nav{
@@ -67,6 +67,10 @@
 
     .overlay{
         background: #f1f1f1;
+    }
+
+    footer img{
+        width: 60%;
     }
 } 
 

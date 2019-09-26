@@ -4,6 +4,10 @@
     font-family: "San Francisco", "Roboto", "Segoe UI"
 }
 
+html, body, #root, main {
+    height: 100%;
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -50,27 +54,18 @@ input{
     width: 100%;
 }
 
-.octo-cat img{
+.octo-cat img, .not-found img{
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
-    width: 80%
+    width: 47%
 }
 
 .not-found{
     text-align: center;
     padding-bottom: 20px;
 }
-
-.not-found img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 800px;
-}
-
-
 
 #fullTime{
     position: relative;
@@ -149,8 +144,12 @@ button{
     margin-right: 0;
 }
 
+.results-list{
+    margin-bottom: 60px;
+}
+
 footer{    
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 0;
     text-align: center;
@@ -174,5 +173,9 @@ footer h2{
 .container-left{
     flex: none;
     width: 290px;
+}
+
+.octo-cat img, .not-found img{
+    width: 80%;
 }
   }

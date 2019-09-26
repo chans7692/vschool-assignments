@@ -8,9 +8,9 @@ html,
 .main {
   height: 100%;
   font: 400 100% "Lato", sans-serif;
-  color: #777;
   scroll-behavior: smooth;
   width: auto;
+  color: #777;
 }
 
 h1, h2, h3 {
@@ -36,14 +36,9 @@ h1, h2, h3 {
   min-height: 400px;
 }
 
-#bgimg-3 {
+#bgimg-3, #bgimg-4 {
   background-image: url("../images/img_parallax3.jpg");
-  min-height: 400px;
-}
-
-#bgimg-4{
-  min-height: 400px;
-  background-image: url("../images/img_parallax.jpg");
+  min-height: 300px;
 }
 
 .caption {
@@ -115,6 +110,8 @@ h1, h2, h3 {
 .content h1{
   width:100%;
   font-size: 4em;
+  font-weight: 900;
+  filter: drop-shadow(1px 1px 4px rgba(255, 255, 255, 0.5))
 }
 
 .route{
@@ -126,12 +123,14 @@ footer{
   justify-content: center;
   bottom: 2.5rem;
   position: relative;
-  padding-bottom: 3rem;
+  padding-bottom: 5rem;
   width: 100%;
   background: url("https://vignette.wikia.nocookie.net/codelyoko/images/5/50/Wiki-background/revision/latest?cb=20120207213735");
 }
 
-footer div{
-  width: fit-content;
+footer img{
+  height: auto;
+  width: 40%;
   margin: 0 auto;
+  filter: drop-shadow(1px 1px 1px rgba(255, 255, 255, 0.5))
 }
